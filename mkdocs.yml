@@ -1,0 +1,10 @@
+site_name: aiida-defects-neb
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true

@@ -1,0 +1,46 @@
+default_inputs:
+  potential_family: PBE.64
+  relax:
+    clean_workdir: false
+    parameters:
+      incar:
+        encut: 400
+        algo: Normal
+        nelm: 60
+        ediff: 1.0e-05
+        ismear: 0
+        sigma: 0.2
+        lreal: Auto
+        isym: 0
+
+        isif: 2
+        ibrion: 2
+        nsw: 200
+        ediffg: -0.01
+  neb:
+    clean_workdir: false
+    parameters:
+      incar:
+        encut: 400
+        algo: Normal
+        nelm: 60
+        ediff: 1.0e-05
+        ismear: 0
+        sigma: 0.2
+        lreal: Auto
+        isym: 0
+
+        isif: 2
+        ibrion: 3
+        potim: 0
+        iopt: 3
+        nsw: 200
+        ediffg: -0.02
+
+        ichain: 0
+        lclimb: false
+        spring: -5
+default_protocol: default
+protocols:
+    default:
+        description: 'Default protocol'

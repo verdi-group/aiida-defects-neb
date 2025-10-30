@@ -2,6 +2,6 @@
 _commit: v0.11.1
 _src_path: https://github.com/mbercx/python-copier
 description: Python package
-doc_deploy: nowhere
+doc_deploy: github
 docs: mkdocs
 package_name: aiida-defects-neb

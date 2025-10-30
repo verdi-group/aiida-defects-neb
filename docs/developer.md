@@ -60,6 +60,9 @@ and install the package locally in **editable** mode (`-e`):
     and open the documentation in your browser via the link shown.
     Every time you save a file, the corresponding documentation page is updated automatically!
 
+    A GitHub action is set up to automatically deploy the documentation to GitHub Pages.
+    See [the corresponding GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch) for the steps required.
+
 === "uv"
 
     `uv` is a Python package and project manager.
@@ -103,6 +106,9 @@ and install the package locally in **editable** mode (`-e`):
 
     and open the documentation in your browser via the link shown.
     Every time you save a file, the corresponding documentation page is updated automatically!
+
+    A GitHub action is set up to automatically deploy the documentation to GitHub Pages.
+    See [the corresponding GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch) for the steps required.
 
 === "Hatch"
 
@@ -153,6 +159,9 @@ and install the package locally in **editable** mode (`-e`):
 
     and open the documentation in your browser via the link shown.
     Every time you save a file, the corresponding documentation page is updated automatically!
+
+    A GitHub action is set up to automatically deploy the documentation to GitHub Pages.
+    See [the corresponding GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch) for the steps required.
 
 
 ## Pre-commit rules
